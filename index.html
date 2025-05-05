@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,21 +13,17 @@
 
 <body>
 
-<nav id="navbar">
-    <!-- PRIMA LINEA -->
+<nav class="navbar">
+    <!-- line 1-->
     <div class="navbar-container">
-        <div id="line-one">
-
-
+        <div class="line-one">
             <ul class="userBar-left">
-                <li><a href="#"><img id="imgEdition" src="https://placehold.co/17x14" alt="Icona Edizione"> </a></li>
-                <li id="line-one-text"><a href="#" >Read today's Edition</a></li>
+                <li><a href="#"><img src="https://placehold.co/17x14" alt="Icon"> </a></li>
+                <li class="line-one-text"><a href="#" >Read today's Edition</a></li>
             </ul>
-
-            <div id="logo">
+            <div class="logo">
                 <a href="#" ><img src="https://placehold.co/250x25" alt="Miami Herald Logo"> </a>
             </div>
-
             <ul class="userBar-right">
                 <li><a href="#" >Log In </a></li>
                 <li>|</li>
@@ -35,20 +31,17 @@
             </ul>
         </div>
 
+        <div class="separator"></div>
 
-        <div  class="separator"></div>
-
-
-        <!-- SECONDA LINEA -->
-        <div id="line-two">
-
+        <!--line 2-->
+        <div class="line-two">
             <div class="userBar-left">
-                <div class="img3">
+                <div>
                     <a href="#" ><img src="https://placehold.co/28x16" alt="img3"></a>
                 </div>
             </div>
 
-            <ul id="menu">
+            <ul class="menu">
                 <li><a href="#">NEWS</a></li>
                 <li><a href="#">SPORTS</a></li>
                 <li><a href="#">IMMIGRATION </a></li>
@@ -65,41 +58,33 @@
                 <a href="#" >83°F</a>
             </div>
         </div>
-
-        <!-- TERZA LINEA -->
     </div>
 </nav>
 
-<main class="main">
 
+
+<main class="main">
     <div class="main-grid">
 
-
-        <article id="main-article">
+        <!-- ARTICOLO DI APERTURA ------------------------------------------------>
+        <article class="main-article main-article--feature">
             <div class="article-container">
-                <a href="#"><h1>FLORIDA POLITICS</h1></a>
-                <a href="#"><h2>
-                    Florida House ending Hope Florida investigation<br>
-                    after witnesses decline to testify
-                </h2></a>
-
+                <a href="#"><h1>FLORIDA POLITICS</h1></a>
+                <a href="#"><h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.</h2></a>
                 <img src="https://placehold.co/713x401" alt="News image">
-
-                <p>
-                    Witnesses asked to testify Thursday and Friday to Republican Rep. Alex Andrade's
-                    committee about the Hope Florida Foundation declined the invitations.
-                </p>
-                <p class="update-time">Updated April 24, 2025 10:25 AM</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…</p>
+                <p class="update-time">Updated April 24, 2025 10:25 AM</p>
             </div>
         </article>
 
-        <div id="main-article-banner">
+        <!-- BANNER PUBBLICITARIO ----------------------------------------------->
+        <div class="main-article-banner main-article-banner--ad">
             <img src="https://placehold.co/366x665" alt="Advertisement banner">
         </div>
 
-        <section  id="news-collector1" class="news-section">
+        <!-- SEZIONI “LATEST NEWS” ---------------------------------------------->
+        <section class="news-section news-section--latest-1">
             <h1>LATEST NEWS</h1>
-
             <div class="article">
                 <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
                 <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
@@ -122,109 +107,48 @@
             </div>
 
             <a href="#">MORE IN LATEST NEWS</a>
+
         </section>
 
-        <article id="news-card1" class="news-card">
+
+
+        <!-- NEWS‑CARD ----------------------------------------------------------->
+        <article class="news-card news-card--1">
+            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
+            <h2><a href="#">FLORIDA POLITICS</a></h2>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
+            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+        </article>
+        <article class="news-card news-card--2">
+            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
+            <h2><a href="#">FLORIDA POLITICS</a></h2>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
+            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+        </article>
+        <article class="news-card news-card--3">
+            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
+            <h2><a href="#">FLORIDA POLITICS</a></h2>
+            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
+            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+        </article>
+        <article class="news-card news-card--4">
             <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
             <h2><a href="#">FLORIDA POLITICS</a></h2>
             <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
             <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
         </article>
 
-        <article id="news-card2" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">IMMIGRATION</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
 
-        <article id="news-card3" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">IMMIGRATION</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <article id="news-card4" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">MIAMI BEACH</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <section id="news-collector2" class="news-section">
-            <h1>LATEST NEWS</h1>
-
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-
-            <a href="#">MORE IN LATEST NEWS</a>
-        </section>
-
-        <article id="news-card5" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">FLORIDA POLITICS</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <article id="news-card6" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">IMMIGRATION</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <article id="news-card7" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">IMMIGRATION</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <article id="news-card8" class="news-card">
-            <a href="#"><img src="https://placehold.co/326x184" alt="News image"></a>
-            <h2><a href="#">MIAMI BEACH</a></h2>
-            <p><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit.</a></p>
-            <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-        </article>
-
-        <div id="videos-separator" class="separator-text" >
-            <h1>Videos</h1>
-            <div  class="separator"></div>
+        <!-- SEPARATORI ---------------------------------------------------------->
+        <div class="separator-text separator-text--videos">
+            <h1>Videos</h1><div class="separator"></div>
         </div>
 
+        <!-- VIDEO PLAYER -------------------------------------------------------->
         <div class="video-player">
-
-
             <div class="video-container">
-                <video controls autoplay loop>
-
-                    <p class="fallback">
-                        Il tuo browser non supporta questo video.
-                    </p>
-                </video>
+                <video controls autoplay loop></video>
             </div>
-
-
             <aside class="video-playlist">
                 <ul class="playlist">
                     <li><a href="#"><img src="https://placehold.co/160x90" alt="Dolphins In Depth thumbnail" /></a></li>
@@ -237,19 +161,16 @@
 
                     <li><a href="#"><img src="https://placehold.co/160x90" alt="Related video" /></a></li>
 
-
                 </ul>
             </aside>
-
-
         </div>
 
-        <div id="FromOurPartners-separator" class="separator-text" >
-            <h1>From Our Partners</h1>
-            <div  class="separator"></div>
+        <div class="separator-text separator-text--partners">
+            <h1>From Our Partners</h1><div class="separator"></div>
         </div>
 
-        <section id="news-section-with-image1" class="news-section-with-image">
+        <!-- SEZIONI CON IMMAGINE LATERALE ------------------------------------->
+        <section class="news-section-with-image news-section-with-image--1">
             <h1>LATEST NEWS11</h1>
 
             <img src="https://placehold.co/327x184" alt="Advertisement banner">
@@ -276,44 +197,10 @@
 
             <a href="#">MORE IN LATEST NEWS</a>
 
-
         </section>
 
-        <section id="news-section-with-image2" class="news-section-with-image">
-            <h1>LATEST NEWS22</h1>
-
-            <img src="https://placehold.co/327x184" alt="Advertisement banner">
-
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-
-
-            <div class="article">
-                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
-                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
-            </div>
-
-
-
-            <a href="#">MORE IN LATEST NEWS</a>
-
-
-        </section>
-
-        <section id="news-section-with-image3" class="news-section-with-image">
-            <h1>LATEST NEWS33</h1>
+        <section class="news-section-with-image news-section-with-image--2">
+            <h1>LATEST NEWS11</h1>
 
             <img src="https://placehold.co/327x184" alt="Advertisement banner">
 
@@ -337,28 +224,41 @@
                 <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
             </div>
 
-
-
-
-
             <a href="#">MORE IN LATEST NEWS</a>
-
 
         </section>
 
+        <section class="news-section-with-image news-section-with-image--3">
+            <h1>LATEST NEWS11</h1>
 
+            <img src="https://placehold.co/327x184" alt="Advertisement banner">
 
+            <div class="article">
+                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
+                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+            </div>
 
+            <div class="article">
+                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
+                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+            </div>
 
+            <div class="article">
+                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
+                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+            </div>
 
+            <div class="article">
+                <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a></h2>
+                <p class="update-time">Updated Mar 28 2025 6:43 PM</p>
+            </div>
 
+            <a href="#">MORE IN LATEST NEWS</a>
 
+        </section>
 
     </div>
-
-
 </main>
-
 
 
 <footer class="site-footer">
